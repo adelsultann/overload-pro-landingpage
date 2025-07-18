@@ -12,6 +12,7 @@ export default function Home() {
     <div className="bg-charcoal-dark text-white font-sans antialiased">
       <div className="min-h-screen flex flex-col">
         <Header />
+        
         <main className="flex-grow">
           <Hero />
           <Features />

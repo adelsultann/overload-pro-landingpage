@@ -12,8 +12,11 @@ const Privacy: React.FC = () => {
                         <p>We do not sell, trade, or otherwise transfer your personally identifiable information to outside parties. All workout data you input into the app is stored securely and is only accessible by you. We do not use third-party trackers or advertising services within our application.</p>
                         <p>Our goal is to provide a tool that helps you achieve your fitness goals without compromising your privacy. If you have any questions about our policy, please feel free to contact us.</p>
                     </div>
-                </div>
+                    <br></br>
+                      <h3>Read more about our <a href="/privacy" className="text-neon-green">Privacy Policy</a></h3>
             </div>
+                </div>
+              
         </section>
     );
 };

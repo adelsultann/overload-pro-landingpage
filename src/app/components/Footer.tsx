@@ -9,6 +9,7 @@ const Footer: React.FC = () => {
                 <p>&copy; {new Date().getFullYear()} Overload Pro. All Rights Reserved.</p>
                 <p className="text-sm mt-1">Built for strength, designed for focus.</p>
             </div>
+           
         </footer>
     );
 };

@@ -29,10 +29,7 @@ export default function PrivacyPage() {
         <p>We do not knowingly collect info from children under 13. Contact us if you have concerns.</p>
         <h2 className="text-xl font-semibold mt-4 mb-2">7. Changes to this Policy</h2>
         <p>Updates will be posted on this page.</p>
-        <h2 className="text-xl font-semibold mt-4 mb-2">8. Contact</h2>
-        <p>
-          For questions, email: <a href="mailto:your@email.com" className="text-accent-green underline">your@email.com</a>
-        </p>
+       
       </div>
     </div>
   );

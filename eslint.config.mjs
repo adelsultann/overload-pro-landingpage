@@ -23,10 +23,18 @@ const eslintConfig = [
       // Customize no-unused-vars for TypeScript
       "@typescript-eslint/no-unused-vars": [
         "warn",
+
         {
           argsIgnorePattern: "^_",
           varsIgnorePattern: "^_",
           caughtErrorsIgnorePattern: "^_",
+        },
+      ],
+      // Customize no-undef for TypeScript
+      "@typescript-eslint/no-undef": [
+        "warn",
+        {
+          typeof: false,
         },
       ],
     },

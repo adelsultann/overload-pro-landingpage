@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+/* Theme variables */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+/* Tailwind utilities */
+@tailwind utilities;
+
+/* Theme mappings */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-geist-mono);
+  
+  /* Custom color mappings */
+  --color-charcoal-dark: #10141a;
+  --color-charcoal-medium: #1A2C1D;
+  --color-charcoal-light: #2C2C2E;
+  --color-neon-green: #22FF7A;
+  --color-gray-muted: #8A9B8A;
+  --color-gray-soft: #888;
+}
+
+/* Global body styles */
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
